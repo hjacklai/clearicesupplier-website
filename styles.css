@@ -1491,3 +1491,142 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   }
 }
 
+/* ===========================================================
+   CITY LANDING PAGES (/areas/{slug}/)
+   =========================================================== */
+.breadcrumb {
+  font-size: 0.9rem;
+  color: var(--ink-2);
+  margin: 0 0 18px 0;
+}
+.breadcrumb a {
+  color: var(--mint);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.breadcrumb a:hover { border-bottom-color: var(--mint); }
+.breadcrumb span { color: var(--ink); }
+
+.area-hero {
+  padding-top: clamp(80px, 14vw, 140px);
+  padding-bottom: clamp(40px, 7vw, 72px);
+}
+.area-h1 {
+  margin: 8px 0 18px 0;
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  line-height: 1.04;
+  color: var(--ink);
+}
+.area-lede {
+  font-size: clamp(1.05rem, 1.4vw, 1.2rem);
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-width: 70ch;
+  margin: 0 0 28px 0;
+}
+.area-hero .btn--final {
+  display: inline-block;
+}
+
+.area-prices {
+  padding: clamp(40px, 6vw, 72px) 0;
+}
+.area-prices__grid {
+  list-style: none;
+  padding: 0;
+  margin: 22px 0 18px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  max-width: 720px;
+}
+.area-prices__grid li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1.5px solid var(--mint);
+  border-radius: 12px;
+  color: var(--ink);
+  gap: 18px;
+}
+.area-prices__grid li span { font-size: 0.98rem; }
+.area-prices__grid li strong {
+  font-family: var(--display-font, "Archivo Black", system-ui, sans-serif);
+  color: var(--mint);
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+.area-prices__note {
+  margin-top: 14px;
+  color: var(--ink-2);
+  font-size: 0.95rem;
+  max-width: 70ch;
+}
+
+.area-faq {
+  padding: clamp(40px, 6vw, 72px) 0;
+}
+.area-faq .faq__list {
+  margin-top: 22px;
+}
+
+.area-others {
+  padding-bottom: clamp(48px, 7vw, 80px);
+}
+.area-others__title {
+  margin-bottom: 22px;
+}
+
+/* Simple footer used on city pages */
+.footer__simple {
+  padding: 28px 0;
+  text-align: center;
+  color: var(--ink-2);
+  font-size: 0.95rem;
+}
+.footer__simple a {
+  color: var(--mint);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.footer__simple a:hover { border-bottom-color: var(--mint); }
+
+/* Homepage footer: AREAS WE DELIVER full-width row */
+.footer__areas {
+  margin-top: clamp(24px, 4vw, 40px);
+  padding-top: clamp(24px, 4vw, 40px);
+  border-top: 1px solid rgba(94,234,212,0.18);
+}
+.footer__areas h4 {
+  color: var(--mint);
+  font-size: 0.92rem;
+  letter-spacing: 0.08em;
+  margin: 0 0 14px 0;
+}
+
+/* Homepage footer column for city backlinks */
+.footer__cities {
+  columns: 3;
+  column-gap: 18px;
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+.footer__cities li { break-inside: avoid; }
+.footer__cities a {
+  color: rgba(244,241,232,0.72);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.footer__cities a:hover {
+  color: var(--mint);
+  border-bottom-color: var(--mint);
+}
+@media (max-width: 720px) {
+  .footer__cities { columns: 2; }
+}
+

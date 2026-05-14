@@ -1041,6 +1041,13 @@ textarea:focus-visible {
   font-size: clamp(2.1rem, 5vw, 3.4rem);
   margin-bottom: clamp(24px, 4vw, 36px);
 }
+.testimonials__note {
+  margin-top: clamp(20px, 3vw, 32px);
+  color: var(--ink-2);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 70ch;
+}
 .testimonials__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

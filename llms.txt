@@ -72,10 +72,10 @@ Quote and slot confirmed within the hour during business hours. No cart, no chec
 
 - Clear ice is directionally frozen over 72 hours. As water freezes from one side only, air and minerals are pushed out of the ice instead of trapped inside.
 - Regular freezer ice freezes from all sides simultaneously, trapping air bubbles, dissolved minerals (calcium, magnesium, chlorine, fluoride from tap water), and absorbed freezer odours in a cloudy core.
-- Clear ice has zero off-flavours because there are no impurities to leach into the drink.
-- Clear ice melts up to three times slower than standard freezer ice in the same glass. This is because trapped air increases surface area exposure to the liquid, while a dense clear cube has minimum surface area.
-- Slower melt means a drink stays chilled longer without diluting. The first sip and the last sip taste the same.
-- A 5.5 cm clear sphere lasts longest because spheres have the smallest surface-area-to-volume ratio of any solid shape.
+- Clear ice has essentially no off-flavours because most impurities are pushed out during the freezing process, not trapped inside.
+- Clear ice generally melts more slowly than standard freezer ice in the same glass. A commonly cited figure is up to three times slower. Less trapped air means a denser block with less surface area touching the liquid.
+- Slower melt tends to keep a drink chilled longer without diluting, so the first sip and the last sip taste closer to each other.
+- A 5.5 cm clear sphere tends to last longest because spheres have the smallest surface-area-to-volume ratio of any solid shape.
 
 Full deep-dive: https://www.malaysiaclearice.com/why-clear-ice/
 

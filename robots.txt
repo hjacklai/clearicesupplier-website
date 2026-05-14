@@ -1,0 +1,26 @@
+# Malaysia Clear Ice | Clear Ice Supplier
+# All search + AI crawlers welcome.
+
+User-agent: *
+Allow: /
+
+# Explicit allows for major AI crawlers (some respect Disallow defaults)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://www.malaysiaclearice.com/sitemap.xml

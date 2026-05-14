@@ -1593,6 +1593,113 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .footer__simple a:hover { border-bottom-color: var(--mint); }
 
+/* ===========================================================
+   ARTICLE PAGES (/why-clear-ice/, /how-clear-ice-is-made/)
+   =========================================================== */
+.article {
+  padding-top: clamp(80px, 14vw, 140px);
+  padding-bottom: clamp(48px, 7vw, 80px);
+}
+.article__h1 {
+  margin: 8px 0 22px 0;
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  line-height: 1.04;
+  color: var(--ink);
+}
+.article__lede {
+  font-size: clamp(1.1rem, 1.4vw, 1.25rem);
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-width: 68ch;
+  margin: 0 0 32px 0;
+}
+.article__hero-img {
+  display: block;
+  width: 100%;
+  max-width: 880px;
+  height: auto;
+  border-radius: 14px;
+  border: 2px solid var(--mint);
+  margin: 0 0 36px 0;
+  box-shadow: 8px 8px 0 var(--coral);
+}
+.article__h2 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  line-height: 1.15;
+  color: var(--mint);
+  margin: clamp(36px, 5vw, 56px) 0 14px 0;
+  letter-spacing: -0.01em;
+}
+.article p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--ink);
+  max-width: 68ch;
+  margin: 0 0 16px 0;
+}
+.article p:has(.link--underline) {
+  color: var(--ink-2);
+}
+.article__list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 22px 0;
+  max-width: 70ch;
+}
+.article__list li {
+  position: relative;
+  padding: 12px 0 12px 28px;
+  border-bottom: 1px solid rgba(94,234,212,0.12);
+  color: var(--ink);
+  line-height: 1.55;
+}
+.article__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--mint);
+  box-shadow: 0 0 0 2px var(--bg);
+}
+.article__list strong {
+  color: var(--mint);
+  font-weight: 700;
+}
+
+.article__usecases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 22px 0 28px 0;
+}
+.article__usecase {
+  padding: 20px 22px;
+  background: var(--surface);
+  border: 2px solid var(--mint);
+  border-radius: 14px;
+}
+.article__usecase h3 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 1.1rem;
+  color: var(--mint);
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+}
+.article__usecase p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.article .faq__list {
+  margin-top: 18px;
+  max-width: 80ch;
+}
+
 /* Homepage footer: AREAS WE DELIVER full-width row */
 .footer__areas {
   margin-top: clamp(24px, 4vw, 40px);

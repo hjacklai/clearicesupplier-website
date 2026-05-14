@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Page moved | Malaysia Clear Ice</title>
+  <meta name="description" content="This page has moved. We redesigned the site. Take me to the new homepage or WhatsApp +60 11-3965 2066 to order clear ice." />
+  <meta name="robots" content="noindex, follow" />
+
+  <!-- Redirect after 4 seconds for users; Google still sees HTTP 404 -->
+  <meta http-equiv="refresh" content="4; url=/" />
+
+  <link rel="icon" type="image/png" sizes="any" href="/assets/logo-original.png" />
+  <link rel="apple-touch-icon" href="/assets/logo-original.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <style>
+    .notfound {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .notfound__inner {
+      max-width: 640px;
+      width: 100%;
+    }
+    .notfound__eyebrow {
+      color: var(--mint);
+      font-size: 0.9rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin: 0 0 18px 0;
+    }
+    .notfound__title {
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: clamp(2.6rem, 7vw, 4.8rem);
+      line-height: 1.0;
+      margin: 0 0 22px 0;
+      color: var(--ink);
+    }
+    .notfound__title .t-coral { color: var(--coral); }
+    .notfound__title .t-cobalt { color: var(--cobalt); }
+    .notfound__lede {
+      font-size: clamp(1.05rem, 1.4vw, 1.2rem);
+      line-height: 1.55;
+      color: var(--ink-2);
+      max-width: 56ch;
+      margin: 0 auto 30px auto;
+    }
+    .notfound__buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+    .notfound__buttons .btn {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+      border: 2px solid transparent;
+      transition: transform .18s ease, background .18s ease, color .18s ease, box-shadow .18s ease;
+    }
+    .notfound__buttons .btn:hover { transform: translateY(-2px); }
+    .btn--home { background: var(--mint); color: var(--ink-deep); }
+    .btn--home:hover { background: var(--cobalt); color: var(--white); }
+    .btn--wa-big { background: var(--coral); color: var(--ink-deep); border-color: var(--ink-deep); }
+    .btn--wa-big:hover { background: var(--ink-deep); color: var(--mint); }
+    .notfound__timer {
+      color: var(--ink-2);
+      font-size: 0.92rem;
+      margin: 18px 0 0 0;
+    }
+    .notfound__timer span { color: var(--mint); font-weight: 700; }
+  </style>
+</head>
+<body>
+  <main class="notfound">
+    <div class="notfound__inner">
+      <p class="notfound__eyebrow">404 &middot; PAGE MOVED</p>
+      <h1 class="notfound__title">
+        <span class="t-coral">Oops.</span><br />
+        <span class="t-cobalt">That ice melted.</span>
+      </h1>
+      <p class="notfound__lede">
+        We redesigned the site, so the old link you followed no longer exists. Same ice, same WhatsApp, new pages. Jump to the homepage or WhatsApp us right now.
+      </p>
+      <div class="notfound__buttons">
+        <a class="btn btn--home" href="/">Go to homepage</a>
+        <a class="btn btn--wa-big" href="https://wa.me/601139652066" target="_blank" rel="noopener">
+          WhatsApp +60 11-3965 2066
+        </a>
+      </div>
+      <p class="notfound__timer">Auto-redirecting in <span id="countdown">4</span> seconds &hellip;</p>
+    </div>
+  </main>
+
+  <script>
+    // Visible countdown so users know what is happening. Fallback to meta refresh in case JS is off.
+    (function () {
+      var el = document.getElementById("countdown");
+      var n = 4;
+      if (!el) return;
+      var t = setInterval(function () {
+        n -= 1;
+        if (n <= 0) {
+          clearInterval(t);
+          window.location.replace("/");
+        } else {
+          el.textContent = n;
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+</html>

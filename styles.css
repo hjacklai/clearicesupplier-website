@@ -1420,3 +1420,74 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 ::selection            { background: var(--mint); color: var(--ink-deep); }
 .skip-link             { background: var(--mint); color: var(--ink-deep); }
 
+/* ===========================================================
+   AREAS — chip cloud (50 KL/Selangor neighbourhoods)
+   =========================================================== */
+.areas {
+  padding: clamp(56px, 8vw, 96px) 0;
+}
+.areas__group {
+  margin-top: clamp(28px, 4vw, 44px);
+}
+.areas__heading {
+  font-family: var(--display-font, "Archivo Black", system-ui, sans-serif);
+  font-size: clamp(1.1rem, 1.6vw, 1.4rem);
+  letter-spacing: 0.02em;
+  color: var(--mint);
+  margin: 0 0 14px 0;
+  text-transform: uppercase;
+}
+.areas__chips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.areas__chips li {
+  margin: 0;
+}
+.areas__chips a {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  border: 2px solid var(--mint);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1;
+  transition: transform .18s var(--ease), background .18s var(--ease), color .18s var(--ease), box-shadow .18s var(--ease);
+  white-space: nowrap;
+}
+.areas__chips a:hover,
+.areas__chips a:focus-visible {
+  background: var(--mint);
+  color: var(--ink-deep);
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 var(--coral);
+}
+.areas__cta {
+  margin-top: clamp(28px, 4vw, 44px);
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--ink-2);
+}
+.areas__cta .link--underline {
+  color: var(--mint);
+  border-bottom-color: var(--mint);
+  margin-left: 6px;
+}
+.areas__cta .link--underline:hover {
+  color: var(--coral);
+  border-bottom-color: var(--coral);
+}
+@media (max-width: 640px) {
+  .areas__chips a {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
+

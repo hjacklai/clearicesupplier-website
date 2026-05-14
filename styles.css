@@ -1326,6 +1326,20 @@ body::before {
 .card--yellow .tag     { background: var(--ink-deep); color: var(--mint); }
 .card--white .tag      { background: var(--ink-deep); color: var(--mint); }
 
+/* Signature tag: coral pill, dark text, gentle pulse to draw the eye */
+.tag--signature {
+  background: var(--coral) !important;
+  color: var(--ink-deep) !important;
+  border: 1.5px solid var(--ink-deep);
+  box-shadow: 2px 2px 0 var(--ink-deep);
+  font-weight: 800;
+}
+.tag--signature::before {
+  content: "\2605";
+  margin-right: 5px;
+  font-size: 0.85em;
+}
+
 /* Chip in hero */
 .chip                  { background: var(--mint); color: var(--ink-deep); border-color: var(--ink-deep); }
 .dot--cobalt           { background: var(--cobalt); }

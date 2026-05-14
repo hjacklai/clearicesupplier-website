@@ -1502,9 +1502,13 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
    CITY LANDING PAGES (/areas/{slug}/)
    =========================================================== */
 .breadcrumb {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--ink-2);
-  margin: 0 0 18px 0;
+  margin: 0 0 22px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 .breadcrumb a {
   color: var(--mint);
@@ -1513,6 +1517,33 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .breadcrumb a:hover { border-bottom-color: var(--mint); }
 .breadcrumb span { color: var(--ink); }
+
+/* Home anchor gets pill-button treatment so it stands out as a clear way back */
+.breadcrumb a[href="/"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 2px solid var(--mint);
+  color: var(--mint);
+  font-weight: 700;
+  font-size: 0.98rem;
+  line-height: 1;
+  transition: transform .18s ease, background .18s ease, color .18s ease, box-shadow .18s ease;
+}
+.breadcrumb a[href="/"]::before {
+  content: "\2190";
+  font-size: 1.05rem;
+}
+.breadcrumb a[href="/"]:hover {
+  background: var(--mint);
+  color: var(--ink-deep);
+  transform: translateY(-1px);
+  box-shadow: 3px 3px 0 var(--coral);
+  border-bottom-color: var(--mint);
+}
 
 .area-hero {
   padding-top: clamp(80px, 14vw, 140px);

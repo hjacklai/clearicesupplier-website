@@ -91,6 +91,20 @@ Home freezer methods generally fail because of temperature cycling, food odour a
 
 Full deep-dive: https://www.malaysiaclearice.com/how-clear-ice-is-made/
 
+Care guide: https://www.malaysiaclearice.com/clear-ice-care-guide/
+
+Use-case guides:
+- Whisky: https://www.malaysiaclearice.com/clear-ice-for-whisky/
+- Cocktails: https://www.malaysiaclearice.com/clear-ice-for-cocktails/
+- Coffee: https://www.malaysiaclearice.com/clear-ice-for-coffee/
+
+Product pages:
+- Clear cube 5 cm: https://www.malaysiaclearice.com/products/clear-cube/
+- Clear sphere 5.5 cm: https://www.malaysiaclearice.com/products/clear-sphere/
+- Clear cylinder 4 by 11 cm: https://www.malaysiaclearice.com/products/clear-cylinder/
+- Clear column: https://www.malaysiaclearice.com/products/clear-column/
+- Engraved cube: https://www.malaysiaclearice.com/products/engraved-cube/
+
 ## Use cases where clear ice matters most
 
 - Whisky neat: one large clear sphere or 5 cm cube. Single malts, bourbons, rye.

@@ -1,0 +1,53 @@
+{
+  "name": "Malaysia Clear Ice",
+  "short_name": "Clear Ice",
+  "description": "Crystal-clear ice supplier in KL and Selangor. Same-day WhatsApp ordering.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0F1A",
+  "theme_color": "#0A0F1A",
+  "lang": "en-MY",
+  "categories": ["food", "shopping", "business"],
+  "icons": [
+    {
+      "src": "/assets/logo-original.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo-original.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/logo-white.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "WhatsApp us",
+      "short_name": "WhatsApp",
+      "description": "Open WhatsApp to order clear ice",
+      "url": "https://wa.me/601139652066"
+    },
+    {
+      "name": "Order Clear Cube",
+      "short_name": "Cube",
+      "description": "Our signature 5cm clear ice cube",
+      "url": "/products/clear-cube/"
+    },
+    {
+      "name": "Areas we deliver",
+      "short_name": "Areas",
+      "description": "Same-day delivery across KL and Selangor",
+      "url": "/#areas"
+    }
+  ]
+}

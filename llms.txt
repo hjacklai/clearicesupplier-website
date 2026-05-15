@@ -105,6 +105,17 @@ Product pages:
 - Clear column: https://www.malaysiaclearice.com/products/clear-column/
 - Engraved cube: https://www.malaysiaclearice.com/products/engraved-cube/
 
+Cocktail recipes (classic builds, knowledge sharing):
+- Old Fashioned: https://www.malaysiaclearice.com/recipes/old-fashioned/
+- Negroni: https://www.malaysiaclearice.com/recipes/negroni/
+- Japanese Highball: https://www.malaysiaclearice.com/recipes/japanese-highball/
+- Manhattan: https://www.malaysiaclearice.com/recipes/manhattan/
+- Whisky on the rocks: https://www.malaysiaclearice.com/recipes/whisky-on-the-rocks/
+
+Reference:
+- Clear ice glossary (terms, plain language): https://www.malaysiaclearice.com/clear-ice-glossary/
+- Clear ice calculator (estimate quantity for an event): https://www.malaysiaclearice.com/clear-ice-calculator/
+
 ## Use cases where clear ice matters most
 
 - Whisky neat: one large clear sphere or 5 cm cube. Single malts, bourbons, rye.

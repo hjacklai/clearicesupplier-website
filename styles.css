@@ -1165,14 +1165,17 @@ textarea:focus-visible {
 }
 .footer__grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  gap: clamp(24px, 3vw, 40px);
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  gap: clamp(20px, 2.5vw, 36px);
 }
-@media (max-width: 880px) {
-  .footer__grid { grid-template-columns: 1fr 1fr; }
+@media (max-width: 1024px) {
+  .footer__grid { grid-template-columns: 1fr 1fr 1fr; }
   .footer__brand { grid-column: 1 / -1; }
 }
-@media (max-width: 480px) {
+@media (max-width: 640px) {
+  .footer__grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 420px) {
   .footer__grid { grid-template-columns: 1fr; }
 }
 .brand__name--lg {

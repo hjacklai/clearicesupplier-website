@@ -4,6 +4,29 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSDYZ1LSG3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZSDYZ1LSG3');
+    // Track WhatsApp clicks as a conversion event
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('a[href*="wa.me/601139652066"]').forEach(function (a) {
+        a.addEventListener('click', function () {
+          if (typeof gtag === 'function') {
+            gtag('event', 'whatsapp_click', {
+              page_path: window.location.pathname,
+              page_title: document.title,
+              link_text: (a.textContent || '').trim().slice(0, 80)
+            });
+          }
+        });
+      });
+    });
+  </script>
+
   <meta name="theme-color" content="#0A0F1A" media="(prefers-color-scheme: dark)" />
   <meta name="theme-color" content="#0A0F1A" media="(prefers-color-scheme: light)" />
   <meta name="color-scheme" content="dark light" />
@@ -215,12 +238,12 @@
       <div class="container">
         <h2 class="display area-others__title">Nearby areas we also deliver to.</h2>
         <ul class="areas__chips">
-          <li><a href="/areas/klcc/">KLCC</a></li>
-          <li><a href="/areas/mont-kiara/">Mont Kiara</a></li>
+          <li><a href="/areas/pandan-indah/">Pandan Indah</a></li>
           <li><a href="/areas/gombak/">Gombak</a></li>
-          <li><a href="/areas/bukit-bintang/">Bukit Bintang</a></li>
-          <li><a href="/areas/damansara-utama/">Damansara Utama</a></li>
-          <li><a href="/areas/kota-damansara/">Kota Damansara</a></li>
+          <li><a href="/areas/mont-kiara/">Mont Kiara</a></li>
+          <li><a href="/areas/ttdi/">TTDI</a></li>
+          <li><a href="/areas/subang-jaya/">Subang Jaya</a></li>
+          <li><a href="/areas/puchong/">Puchong</a></li>
         </ul>
         <p class="areas__cta">
           Don&#39;t see your area?

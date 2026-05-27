@@ -1270,7 +1270,7 @@ textarea:focus-visible {
 }
 
 /* ============================================================
-   FUN BLACK — overrides for the previously light-themed rules.
+   FUN BLACK - overrides for the previously light-themed rules.
    These cascade-win because they appear last.
    ============================================================ */
 
@@ -1366,7 +1366,7 @@ body::before {
 .section__head .link--underline { color: var(--ink); border-bottom-color: var(--ink); }
 .section__head .link--underline:hover { color: var(--mint); border-bottom-color: var(--mint); }
 
-/* Marquee — was ink/yellow, now cobalt with mint text */
+/* Marquee - was ink/yellow, now cobalt with mint text */
 .marquee               { background: var(--cobalt); color: var(--mint); }
 
 /* Products grid: rework card colors for dark theme */
@@ -1383,13 +1383,13 @@ body::before {
 .card__media           { background: rgba(244,241,232,0.08); border-color: transparent; }
 .card--white .card__media { background: rgba(14,20,40,0.06); }
 
-/* B2B panel (already cobalt — adjust shadow + perk tick color) */
+/* B2B panel (already cobalt - adjust shadow + perk tick color) */
 .b2b__panel            { box-shadow: 8px 8px 0 var(--coral); }
 .b2b__perks li span    { color: var(--mint); }
 .b2b__cta .btn--final       { background: var(--mint); color: var(--ink-deep); }
 .b2b__cta .btn--final:hover { background: var(--white); color: var(--cobalt); }
 
-/* Reasons panel (already coral) — adjust shadow */
+/* Reasons panel (already coral) - adjust shadow */
 .reasons__panel        { box-shadow: 8px 8px 0 var(--mint); }
 
 /* Who's it for: tiles */
@@ -1401,7 +1401,7 @@ body::before {
 .tile--white p         { color: rgba(14,20,40,0.72); }
 .who__photos img       { border-color: var(--ink); }
 
-/* Engraving panel — was yellow, becomes mint with coral blob */
+/* Engraving panel - was yellow, becomes mint with coral blob */
 .engraving__panel      { background: var(--mint); color: var(--ink-deep); border-color: var(--ink-deep); box-shadow: 8px 8px 0 var(--coral); }
 .engraving__blob       { background: var(--coral); border-color: var(--ink-deep); }
 .engraving__price      { border-color: var(--ink-deep); color: var(--ink-deep); }
@@ -1422,7 +1422,7 @@ body::before {
 .quote footer img      { border-color: var(--ink); }
 .quote--white footer img { border-color: var(--ink-deep); }
 
-/* Delivery panel — was ink, stays dark via --surface with mint accents */
+/* Delivery panel - was ink, stays dark via --surface with mint accents */
 .delivery__panel       { background: var(--surface); color: var(--ink); border: 2px solid var(--mint); }
 .delivery__cities li   { background: rgba(94,234,212,0.08); border-color: var(--mint); }
 .delivery__cities h3   { color: var(--mint); }
@@ -1445,7 +1445,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .skip-link             { background: var(--mint); color: var(--ink-deep); }
 
 /* ===========================================================
-   AREAS — chip cloud (50 KL/Selangor neighbourhoods)
+   AREAS - chip cloud (50 KL/Selangor neighbourhoods)
    =========================================================== */
 .areas {
   padding: clamp(56px, 8vw, 96px) 0;

@@ -74,6 +74,9 @@
   <link rel="apple-touch-icon" href="assets/logo-original.png" />
 
   <link rel="canonical" href="https://www.malaysiaclearice.com/" />
+  <link rel="alternate" hreflang="en-MY" href="https://www.malaysiaclearice.com/" />
+  <link rel="alternate" hreflang="en" href="https://www.malaysiaclearice.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.malaysiaclearice.com/" />
   <link rel="preload" as="image" href="assets/hero-cube.jpg" fetchpriority="high" />
 
   <!-- Open Graph / social sharing previews -->
@@ -142,7 +145,26 @@
     "url": "https://www.malaysiaclearice.com/",
     "description": "Crystal-clear ice supplier serving KL, Klang Valley and Selangor. Same-day WhatsApp ordering.",
     "publisher": {"@id": "https://www.malaysiaclearice.com/#organization"},
-    "inLanguage": "en-MY"
+    "inLanguage": "en-MY",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.malaysiaclearice.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Speakable schema - voice search optimization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Clear Ice KL, PJ, Subang, Puchong, Bangsar | Same-Day Selangor",
+    "url": "https://www.malaysiaclearice.com/",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".hero__headline", ".hero__sub", ".faq__list"]
+    }
   }
   </script>
 
@@ -1049,6 +1071,7 @@
         <h4>LEARN</h4>
         <ul>
           <li><a href="/learn/">Learn &rarr;</a></li>
+          <li><a href="/about/">About us</a></li>
         </ul>
       </div>
     </div>

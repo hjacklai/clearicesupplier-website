@@ -1,5 +1,5 @@
-# Malaysia Clear Ice | Clear Ice Supplier
-# All search + AI crawlers welcome.
+# Malaysia Clear Ice | Clear Ice Supplier KL and Selangor
+# All search engines and AI crawlers welcome.
 
 User-agent: *
 Allow: /
@@ -23,4 +23,12 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Sitemaps
 Sitemap: https://www.malaysiaclearice.com/sitemap.xml
+Sitemap: https://www.malaysiaclearice.com/sitemap-images.xml

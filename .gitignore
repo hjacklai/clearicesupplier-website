@@ -1,3 +1,10 @@
+# ============================================================
+# Only site-essential files belong in this repo.
+# Internal notes, scripts, design briefs stay in Google Drive
+# (the working folder), never here. The rules below are a
+# safety net so they can never be committed by accident.
+# ============================================================
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
@@ -5,6 +12,35 @@ desktop.ini
 *.swp
 *~
 
-# Google Drive sync
+# Google Drive sync artefacts
 .tmp.drivedownload/
 *.gdoc
+*.gsheet
+*.gslides
+
+# Internal tooling - must never reach GitHub
+.claude/
+*.ps1
+*.bat
+*.sh
+*.psd
+*.nef
+*.NEF
+
+# Internal docs and notes - keep these in Google Drive only
+README.md
+PROMPT*.md
+*NOTES*.md
+*notes*.md
+TODO*.md
+DRAFT*.md
+*.draft.md
+launch.json
+settings.local.json
+*.local.json
+
+# Source / unoptimised assets (only optimised assets ship)
+assets-optimized/
+assets-source/
+photos/
+*.tmp
